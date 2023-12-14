@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+        <link rel="icon" href="assets/images/favicon.png" sizes="35x35" type="image/png">
+        <title>Quick Calligraphy E-Project Site</title>
+
+        <link rel="stylesheet" href="assets/css/all.min.css">
+        <link rel="stylesheet" href="assets/css/flaticon.css">
+        <link rel="stylesheet" href="assets/css/animate.min.css">
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/jquery.fancybox.min.css">
+        <link rel="stylesheet" href="assets/css/jquery.bootstrap-touchspin.min.css">
+        <link rel="stylesheet" href="assets/css/perfect-scrollbar.css">
+        <link rel="stylesheet" href="assets/css/slick.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/responsive.css">
+        <link rel="stylesheet" href="assets/css/color.css">
+        <script src="https://maps.google.com/maps/api/js?sensor=false"></script>
+
+<script>
+function showPosition(){
+    if(navigator.geolocation){
+        navigator.geolocation.getCurrentPosition(showMap);
+    } else{
+        alert("Sorry, your browser does not support HTML5 geolocation.");
+    }
+}
+
+// Define callback function for successful attempt
+function showMap(position){
+    // Get location data
+    lat = 24.9273;
+    long = 67.0331;
+    var latlong = new google.maps.LatLng(lat, long);
+
+    var image = '2.png';
+    var map = new google.maps.Map(document.getElementById("embedMap"), {
+        center: latlong,
+        zoom: 16,
+    });
+    var marker = new google.maps.Marker({position:latlong,map:map, title:"Here is the best food cousine"});
+}
+
+// Define callback function for failed attempt
+
+</script>
+<style>
+    #embedMap{
+        margin-top: 9%;
+        width: 100%;
+        height: 100vh;
+    }
+    #QQ{
+                margin-right: 290px;
+            }
+            #hh{
+                max-height: 300px;
+            }
+</style>
+    </head>
+    <body>
+        <main>
+        <header class="stick style1 w-100">
+            <div class="logo-menu-wrap d-flex flex-wrap justify-content-between w-100">
+                <div class="container" style="display: flex; align-items: center; inline-size: auto;">
+                    <h1 class="mb-0"><a href="index.html" title="Home"><img class="img-fluid"
+                                src="assets/images/Quick_Calligraphy-removebg.png" alt="Logo" srcset="assets/images/Quick_Calligraphy-removebg.png" style="width: 150px; padding: 0px 0px 0px 20px;"></a></h1>
+                                <h2>Quick Calligraphy</h2>
+                </div>
+                <!-- Logo -->
+                <nav class="d-flex flex-wrap align-items-center justify-content-center">
+                    <div class="header-left">
+                        <ul class="mb-0 list-unstyled d-inline-flex">
+                            <li class="menu-item-has-children"><a href="javascript:void(0);" title="">Home</a>
+                                <ul class="mb-0 list-unstyled">
+                                    <li><a href="index.html" title="">What We Do</a></li>
+                                    <li><a href="index2.html" title="">How We Do It</a></li>
+                                </ul>
+                            </li>
+                            
+                            <li class="menu-item"><a href="gallery2.html" title="">Our Gallery</a>
+                                <!-- <ul class="mb-0 list-unstyled">
+                                                                 
+                                    <li class="menu-item-has-children"><a href="gallery2.html" title="">Our
+                                            Gallery</a>
+                                        <ul class="mb-0 list-unstyled">
+
+                                            <li><a href="gallery2.html" title="">Gallery Style 2</a></li>
+
+                                        </ul>
+                                    </li>
+                                </ul> -->
+                            </li>
+                            <li class="menu-item"><a href="products.html" title="">Our Products</a>
+                                <!-- <ul class="mb-0 list-unstyled">
+                                    <li><a href="products.html" title="">Our Products</a></li>
+
+                                </ul> -->
+                            </li>
+                            <li class="menu-item-has-children"><a href="javascript:void(0);" title="">Services</a>
+                                <ul class="mb-0 list-unstyled">
+                                    <li><a href="kids.html" title="">For Kids</a></li>
+                                    <li><a href="elders.html" title="">For Elders</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="about.html" title="">About Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="header-right">
+                        <a class="thm-btn thm-bg" href="contact.html" title="">Contact
+                            Us<span></span><span></span><span></span><span></span></a>
+                    </div>
+                </nav>
+            </div>
+            <!-- Logo Menu Wrap -->
+        </header>
+        <!-- Header -->
+        <div class="rspn-hdr">
+            <div class="rspn-mdbr">
+                <div class="rspn-scil">
+                    <a href="https://twitter.com/" title="Twtiiter" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.facebook.com/" title="Facebook" target="_blank"><i
+                            class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.youtube.com/" title="Youtube" target="_blank"><i
+                            class="fab fa-youtube"></i></a>
+                    <a href="https://www.linkedin.com/" title="Linkedin" target="_blank"><i
+                            class="fab fa-linkedin-in"></i></a>
+                </div>
+                <form class="rspn-srch">
+                    <input type="text" placeholder="Enter Your Keyword">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+            <div class="lg-mn" id="hh">
+                <h1 class="mb-0"><a href="index.html" title="Home"><img class="img-fluid"
+                    src="assets/images/Quick_Calligraphy-removebg.png" alt="Logo" srcset="assets/images/Quick_Calligraphy-removebg.png" style="width: 150px; padding: 0px 0px 0px 20px;"></a><h2 id="QQ">Quick Calligraphy</h2></h1>
+                
+                <div class="rspn-cnt">
+                    <span><i class="thm-clr far fa-envelope"></i><a href="javascript:void(0);"
+                            title="">info@youremailid.com</a></span>
+                    <span><i class="thm-clr fas fa-phone-alt"></i>+92 123 456 789</span>
+                </div>
+                <span class="rspn-mnu-btn"><i class="fa fa-list-ul"></i></span>
+            </div>
+            <div class="rsnp-mnu">
+                <span class="rspn-mnu-cls"><i class="fa fa-times"></i></span>
+                <ul class="mb-0 list-unstyled w-100">
+                    <li class="menu-item-has-children"><a href="javascript:void(0);" title="">Home</a>
+                        <ul class="mb-0 list-unstyled">
+                            <li><a href="index.html" title="">What We Do</a></li>
+                            <li><a href="index2.html" title="">How We Do It</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li class="menu-item"><a href="gallery2.html" title="">Our Gallery</a>
+                    </li>
+                    <li class="menu-item-has-children"><a href="javascript:void(0);" title="">Services</a>
+                        <ul class="mb-0 list-unstyled">
+                            <li><a href="kids.html" title="">For Kids</a></li>
+                            <li><a href="elders.html" title="">For Elders</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item"><a href="products.html" title="">Products</a>
+                    </li>
+                    <li><a href="about.html" title="">About Us</a></li>
+                    <li><a href="contact.html" title="">Contact Us</a></li>
+                </ul>
+            </div>
+            <!-- Responsive Menu -->
+        </div>
+        <!-- Responsive Header -->
+            <section>
+                <div class="w-100 pt-80 black-layer pb-70 opc65 position-relative">
+                    <div class="fixed-bg" style="background-image: url(Indic/Product6.jpg);"></div>
+                    <div class="container">
+                        <div class="page-title-wrap text-center w-100">
+                            <div class="page-title-inner d-inline-block">
+                                <h1 class="mb-0">Contact Us</h1>
+                                <ol class="breadcrumb mb-0">
+                                    <li class="breadcrumb-item"><a href="index.html" title="Home"> Home</a></li>
+                                    <li class="breadcrumb-item active">Contact Us</li>
+                                </ol>
+                            </div>
+                        </div><!-- Page Title Wrap -->
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="w-100 pt-90 thm-layer opc6 position-relative">
+                    <div class="fixed-bg patern-bg back-blend-multiply thm-bg" style="background-image: url(assets/images/pattern-bg.jpg);"></div>
+                    <div class="container">
+                        <div class="cont-info-wrap res-row overlap-115 w-100">
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6 col-lg-4">
+                                    <div class="cont-info-box-wrap w-100">
+                                        <div class="cont-info-box text-center position-relative w-100 pat-bg white-layer opc8 back-blend-multiply bg-white" style="background-image: url(assets/images/pattern-bg.jpg);">
+                                            <span class="bg-color1"><i class="flaticon-call"></i></span>
+                                            <h4 class="mb-0">Phone Number</h4>
+                                            <p class="mb-0">+92 (311) 128 9846</p>
+                                            <p class="mb-0">+92 (324) 832 5113</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-6 col-lg-4">
+                                    <div class="cont-info-box-wrap w-100">
+                                        <div class="cont-info-box text-center position-relative w-100 pat-bg white-layer opc8 back-blend-multiply bg-white" style="background-image: url(assets/images/pattern-bg.jpg);">
+                                            <span class="bg-color1"><i class="flaticon-mail"></i></span>
+                                            <h4 class="mb-0">Email Address</h4>
+                                            <p class="mb-0"><a href="javascript:void(0);" title="">naumanrashid4@gmail.com</a></p>
+                                            <p class="mb-0"><a href="javascript:void(0);" title="">ak03151244808@gmail.com</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-6 col-lg-4">
+                                    <div class="cont-info-box-wrap w-100">
+                                        <div class="cont-info-box text-center position-relative w-100 pat-bg white-layer opc8 back-blend-multiply bg-white" style="background-image: url(assets/images/pattern-bg.jpg);">
+                                            <span class="bg-color1"><i class="fas fa-map-marker-alt"></i></span>
+                                            <h4 class="mb-0">Office Location</h4>
+                                            <p class="mb-0">SD 1, Block A, Near Metric Board Office, North Nazimabad, Karachi</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- Contact Info Wrap -->
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="w-100 pb-250 position-relative">
+                    <img class="sec-botm-rgt-mckp img-fluid position-absolute" src="assets/images/sec-botm-mckp.png" alt="Sec Bottom Mockup">
+                    <!-- <div id="contact-map" class="contact-map w-100"></div> -->
+                    <body onload="showPosition();" id="mp" class="">
+                        <div id="embedMap">
+                            <!--Google map will be embedded here-->
+                        </div>
+                    </body>
+
+                    <div class="container">
+                        <div class="contact-wrap mt-100 w-100">
+                            <div class="row">
+                                <div class="col-md-6 col-sm-12 col-lg-6">
+                                    <div class="cont-info-desc w-100">
+                                        <h3 class="mb-0">Don't be a stranger just say hello.</h3>
+                                        <p class="mb-0">We do fast phone repair. In most  to repair your device in just minutes, li we’ll normally get con nection inutes, we’ll normally ge.</p>
+                                        <h6 class="mb-0">Follow us on social media</h6>
+                                        <div class="social-links2 v2 text-center d-inline-flex">
+                                            <a class="facebook" href="https://www.facebook.com/" title="Facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                            <a class="twitter" href="https://twitter.com/" title="Twitter" target="_blank"><i class="fab fa-twitter"></i></a>
+                                            <a class="google" href="https://www.google.com/" title="Google Plus" target="_blank"><i class="fab fa-google-plus-g"></i></a>
+                                            <a class="linkedin" href="https://www.linkedin.com/" title="Linkedin" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-12 col-lg-6">
+                                    <form class="cont-form w-100">
+                                        <script src="contact.js"></script>
+                                        <input type="text" id="username" placeholder="Complete Name" required>
+                                        <input type="email" id="email" placeholder="Email Address" required>
+                                        <input type="tel" id="phone" placeholder="Phone No" required>
+                                        <textarea id="Message" placeholder="Message"required></textarea>
+                                        <button class="thm-btn thm-bg" onclick="Go()" type="submit">SEND MESSAGE<span></span><span></span><span></span><span></span></button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div><!-- Contact Wrap -->
+                    </div>
+                </div>
+            </section>
+            
+        <footer>
+            <div class="w-100 pt-100 dark-layer pb-50 opc85 position-relative">
+                <div class="fixed-bg patern-bg back-blend-multiply dark-bg"
+                    style="background-image: url(assets/images/pattern-bg.jpg);"></div>
+                <div class="container">
+                    <div class="footer-data w-100">
+                        <div class="row">
+                            <div class="col-md-12 col-sm-12 col-lg-3">
+                                <div class="widget w-100">
+                                    <div class="container bg-white" style="display: flex; align-items: center; inline-size: auto;">
+                                        <h1 class="mb-0"><a href="index.html" title="Home"><img class="img-fluid"
+                                                    src="assets/images/Quick_Calligraphy-removebg.png" alt="Logo" srcset="assets/images/Quick_Calligraphy-removebg.png" style="width: 150px; padding: 0px 0px 0px 10px;"></a></h1>
+                                                    <h2>Quick Calligraphy</h2>
+                                    </div>
+                                    <p class="mb-0">Calligraphy is the art of expressing words with grace and beauty through skilled penmanship.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-sm-12 col-lg-9">
+                                <div class="row justify-content-between">
+                                    <div class="col-md-6 col-sm-6 col-lg-6">
+                                        <div class="row">
+                                            <div class="col-md-6 col-sm-6 col-lg-6">
+                                                
+                                            </div>
+                                            <div class="col-md-6 col-sm-6 col-lg-6">
+                                                <div class="widget w-100">
+                                                    <h4 class="widget-title">Contact Info</h4>
+                                                    <ul class="cont-info-list2 mb-0 list-unstyled w-100">
+                                                        <li><i class="thm-clr">P:</i>123 456 789</li>
+                                                        <li><i class="thm-clr">E:</i><a href="mailto:someone@something.com?subject=your title&body=TThe message"
+                                                            title="">username@domain.com</a></li>
+                                                        <li>Aptech North Nazimabad I.T Center</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-5 col-sm-6 col-lg-5">
+                                        <h4 class="widget-title">Let Us Help You</h4>
+                                        <div class="row">
+                                            <div class="col-md-6 col-sm-6 col-lg-6">
+                                                <div class="widget w-100">
+                                                    <ul class="mb-0 list-unstyled w-100">
+                                                        <li><a href="index.html" title="">About Calligraphy</a></li>
+                                                        <li><a href="kids.html" title="">Our Services</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 col-sm-6 col-lg-6">
+                                                <div class="widget w-100">
+                                                    <ul class="mb-0 list-unstyled w-100">
+                                                        <li><a href="products.html" title="">Our Products</a></li>
+                                                        <li><a href="contact.html" title="">Contact Us</a></li>
+                                                        <li><a href="gallery2.html" title="">Our Gallery</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Footer Data -->
+                </div>
+            </div>
+        </footer>
+        <!-- Footer -->
+        <div class="bottom-bar dark-bg2 text-center w-100">
+            <p class="mb-0"><a href="index.html" title="Home">Calligraphy</a> - Copyright 2023. Design by <a
+                    href="#" title="Nauthemes"
+                    target="_top">Our Team</a></p>
+        </div><!-- Bottom Bar -->
+        </main><!-- Main Wrapper -->
+
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/popper.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/wow.min.js"></script>
+        <script src="assets/js/counterup.min.js"></script>
+        <script src="assets/js/jquery.fancybox.min.js"></script>
+        <script src="assets/js/jquery.bootstrap-touchspin.min.js"></script>
+        <script src="assets/js/perfect-scrollbar.min.js"></script>
+        <script src="assets/js/slick.min.js"></script>
+        <!-- <script src="assets/js/particles.min.js"></script>
+        <script src="assets/js/particle-int.js"></script> -->
+        <script src="assets/js/musicplayer-min.js"></script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCYc537bQom7ajFpWE5sQaVyz1SQa9_tuY&callback=initMap"></script>
+        <script src="assets/js/google-map-int.js"></script>
+        <script src="assets/js/custom-scripts.js"></script>
+    </body>	
+</html>
